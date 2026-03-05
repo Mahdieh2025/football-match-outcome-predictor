@@ -142,6 +142,19 @@ streamlit run app/app.py
 ```
 
 ---
+## Streamlit Application
+
+Interactive web application for predicting football match outcomes.
+
+### App Interface
+
+![Streamlit App](docs/screenshots/app_demo.png)
+
+The application allows users to:
+- Select league division
+- Choose home and away teams
+- Specify season and match date
+- Generate match outcome predictions
 
 # Example Prediction
 
