@@ -122,6 +122,27 @@ Evaluation metrics:
 The main challenge in football prediction is the **draw class**, which tends to be harder to predict accurately.
 
 ---
+## Model Evaluation (Test Set)
+
+Evaluation was performed on a held-out **test set (20%)** using multiclass metrics (Accuracy, Precision/Recall/F1 per class, Macro F1, and Confusion Matrix).
+
+### Final Model (Test Performance)
+
+**Accuracy:** 0.53  
+**Macro F1:** 0.43  
+**Weighted F1:** 0.48  
+
+**Classification report:**
+
+| Class | Precision | Recall | F1-score | Support |
+|------:|----------:|-------:|---------:|--------:|
+| A (Away Win) | 0.47 | 0.47 | 0.47 | 216 |
+| D (Draw)     | 0.38 | 0.09 | 0.15 | 199 |
+| H (Home Win) | 0.57 | 0.82 | 0.67 | 345 |
+| **Overall**  |      |      | **Accuracy: 0.53** | **760** |
+
+**Confusion Matrix** (rows=true, cols=pred):
+
 
 # Streamlit Web Application
 
